@@ -4,7 +4,7 @@ import { useDropzone } from "react-dropzone";
 import { RadialBarChart, RadialBar, PolarAngleAxis } from "recharts";
 import "./App.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://resume-analyser-sxaw.onrender.com";
 
 export default function App() {
   const [page, setPage] = useState("home");
