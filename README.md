@@ -7,6 +7,16 @@
 ![AI](https://img.shields.io/badge/AI-Groq%20LLaMA%203.3-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+## 🌐 Live Demo
+
+🚀 **[Click here to try the live app](https://resume-analyser-pied.vercel.app)**
+
+| Service | URL |
+|---------|-----|
+| 🖥️ Frontend (Vercel) | [resume-analyser-pied.vercel.app](https://resume-analyser-pied.vercel.app) |
+| ⚙️ Backend (Render) | [resume-analyser-sxaw.onrender.com](https://resume-analyser-sxaw.onrender.com) |
+| 📦 GitHub Repo | [github.com/Maaanishhh/resume_analyser](https://github.com/Maaanishhh/resume_analyser) |
+
 ---
 
 ## 📌 About the Project
@@ -71,13 +81,15 @@ resume_analyser/
 └── README.md
 ```
 
+---
+
 ## ⚙️ Setup & Installation
 
 ### Prerequisites
 - Python 3.10+
 - Node.js 18+
-- Groq API key (free at [console.groq.com](https://console.groq.com))
-- RapidAPI key (free at [rapidapi.com](https://rapidapi.com))
+- Groq API key (free at https://console.groq.com)
+- RapidAPI key (free at https://rapidapi.com)
 
 ### 1. Clone the repository
 ```bash
@@ -89,17 +101,22 @@ cd resume_analyser
 ```bash
 cd backend
 python -m venv venv
-venv\Scripts\activate        # Windows
+venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 Create a `.env` file in the backend folder:
+```
+GROQ_API_KEY=your_groq_api_key_here
+RAPIDAPI_KEY=your_rapidapi_key_here
+```
+
 Start the backend:
 ```bash
 uvicorn main:app --reload
 ```
 
-Backend runs at: `http://127.0.0.1:8000`
+Backend runs at: http://127.0.0.1:8000
 
 ### 3. Frontend Setup
 ```bash
@@ -108,7 +125,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs at: `http://localhost:5173`
+Frontend runs at: http://localhost:5173
 
 ---
 
@@ -116,14 +133,8 @@ Frontend runs at: `http://localhost:5173`
 
 | Service | Platform | URL |
 |---------|----------|-----|
-| Frontend | Vercel | Coming soon |
-| Backend | Render | Coming soon |
-
----
-
-## 📸 Screenshots
-
-Coming soon!
+| Frontend | Vercel | [resume-analyser-pied.vercel.app](https://resume-analyser-pied.vercel.app) |
+| Backend | Render | [resume-analyser-sxaw.onrender.com](https://resume-analyser-sxaw.onrender.com) |
 
 ---
 
@@ -131,15 +142,16 @@ Coming soon!
 
 | Variable | Description | Where to get |
 |----------|-------------|--------------|
-| `GROQ_API_KEY` | Groq AI API key | [console.groq.com](https://console.groq.com) |
-| `RAPIDAPI_KEY` | RapidAPI key for job listings | [rapidapi.com](https://rapidapi.com) |
+| `GROQ_API_KEY` | Groq AI API key | https://console.groq.com |
+| `RAPIDAPI_KEY` | RapidAPI key for job listings | https://rapidapi.com |
 
 ---
 
 ## 👨‍💻 Author
 
-**Maaanishhh**
+**Manish**
 - GitHub: [@Maaanishhh](https://github.com/Maaanishhh)
+- Live Project: [resume-analyser-pied.vercel.app](https://resume-analyser-pied.vercel.app)
 
 ---
 
