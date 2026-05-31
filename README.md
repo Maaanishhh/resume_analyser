@@ -56,6 +56,7 @@ This project was built as a **Final Year Project** to demonstrate full-stack dev
 
 ## 📁 Project Structure
 
+```
 resume_analyser/
 ├── backend/
 │   ├── main.py              # FastAPI backend
@@ -68,8 +69,7 @@ resume_analyser/
 │   │   └── main.jsx         # Entry point
 │   └── package.json
 └── README.md
-
----
+```
 
 ## ⚙️ Setup & Installation
 
